@@ -1,16 +1,16 @@
-# Scoop Bucket for bbmctl
+# Scoop Bucket
 
-[Scoop](https://scoop.sh) bucket for [bbmctl](https://github.com/timrabl/bbmctl) — CLI for the German Breitbandmessung broadband measurement API.
+Scoop bucket for [timrabl](https://github.com/timrabl) projects.
 
-## Installation
+## Install
 
 ```powershell
 scoop bucket add timrabl https://github.com/timrabl/scoop-bucket
 scoop install bbmctl
 ```
 
-## Updating
+## Available packages
 
-```powershell
-scoop update bbmctl
-```
+| Package | Description |
+|---------|-------------|
+| [bbmctl](https://github.com/timrabl/bbmctl) | CLI for the German Breitbandmessung broadband measurement API |
